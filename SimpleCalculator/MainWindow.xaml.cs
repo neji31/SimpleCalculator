@@ -28,7 +28,7 @@ namespace SimpleCalculator
 
         private void SimpleButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(Calculator.Calculer(textbxA.Text, textbxB.Text));
+            MessageBox.Show(Calculator.Somme(textbxA.Text, textbxB.Text));
         }
 
       
