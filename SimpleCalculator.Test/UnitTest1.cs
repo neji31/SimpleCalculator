@@ -35,5 +35,17 @@ namespace SimpleCalculator.Test
             //Assert
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData("4", "2", "2")]
+        [InlineData("20", "5", "3")]
+        [InlineData("9", "9", "1")]
+        public void ShouldDiviseTwoNumbers(string x, string y, string expected)
+        {
+            //Act
+            string actual = Calculator.Division(x, y);
+            //Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }

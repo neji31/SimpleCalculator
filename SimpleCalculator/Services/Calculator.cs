@@ -20,5 +20,12 @@ namespace SimpleCalculator.Services
             double b = double.Parse(textb);
             return (a - b).ToString();
         }
+
+        public static string Division(string texta, string textb)
+        {
+            double a = double.Parse(texta);
+            double b = double.Parse(textb);
+            return (a / b).ToString();
+        }
     }
 }
