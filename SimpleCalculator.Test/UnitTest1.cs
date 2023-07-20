@@ -27,7 +27,7 @@ namespace SimpleCalculator.Test
         [InlineData("4", "3", "-1")]
         [InlineData("20.5", "19.5", "1")]
         [InlineData("-9", "-10", "1")]
-        [InlineData("9", "-9", "0")]
+        [InlineData("9", "9", "0")]
         public void ShouldMinusTwoNumbers(string x, string y, string expected)
         {
             //Act
